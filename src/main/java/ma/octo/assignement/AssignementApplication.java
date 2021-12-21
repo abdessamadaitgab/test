@@ -90,7 +90,7 @@ public class AssignementApplication implements CommandLineRunner {
 		versement.setCompteBeneficiaire(compte2);
 		versement.setDateExecution(new Date());
 		versement.setMontantVersement(BigDecimal.valueOf(99999));
-		versement.setMotifVersement("versement familial");
+		versement.setMotifVersement("versement normal");
 		versementRepository.save(versement);
 		
 		
