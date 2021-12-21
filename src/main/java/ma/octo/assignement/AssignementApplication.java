@@ -47,8 +47,8 @@ public class AssignementApplication implements CommandLineRunner {
 
 		//ajout utilisateur 2
 		Utilisateur utilisateur2 = new Utilisateur();
-		utilisateur2.setUsername("user2");
-		utilisateur2.setLastname("last2");
+		utilisateur2.setUsername("Miola");
+		utilisateur2.setLastname("Master");
 		utilisateur2.setFirstname("first2");
 		utilisateur2.setGender("Female");
 		//ajouter date du birthday
