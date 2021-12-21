@@ -36,8 +36,8 @@ public class AssignementApplication implements CommandLineRunner {
 	public void run(String... strings) throws Exception {
 		//ajout utilisateur 1
 		Utilisateur utilisateur1 = new Utilisateur();
-		utilisateur1.setUsername("user1");
-		utilisateur1.setLastname("last1");
+		utilisateur1.setUsername("Achraf");
+		utilisateur1.setLastname("Naoum");
 		utilisateur1.setFirstname("first1");
 		utilisateur1.setGender("Male");
 		//ajouter date du birthday
